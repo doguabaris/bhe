@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Content usage signals
+# search=yes: indexing allowed
+# ai-train=no: model training reuse is not permitted without explicit permission
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+Sitemap: https://bayramharcligi.com/sitemap.xml

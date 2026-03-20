@@ -1,0 +1,22 @@
+{
+  "name": "bhe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bayram Harçlığı Endeksi statik web projesi",
+  "scripts": {
+    "lint": "npm run lint:js && npm run lint:css && npm run lint:md",
+    "lint:js": "eslint public/assets/js/**/*.js",
+    "lint:css": "stylelint \"public/assets/css/**/*.css\"",
+    "lint:md": "remark . --frail --quiet"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "globals": "^15.15.0",
+    "remark-cli": "^12.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-preset-lint-recommended": "^7.0.1",
+    "stylelint": "^16.15.0",
+    "stylelint-config-standard": "^37.0.0"
+  }
+}

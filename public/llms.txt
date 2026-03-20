@@ -1,0 +1,23 @@
+# Bayram Harçlığı Endeksi (BHE)
+
+> Türkiye'de bayram harçlığı değişimini yıllara göre gösteren tek sayfalık interaktif endeks.
+
+## Canonical URL
+- https://bayramharcligi.com/
+
+## Purpose
+- 2005-2026 arası temsili bayram harçlığı verisini karşılaştırmalı olarak sunmak.
+- TRY, 2026 eşdeğeri, adet ve skor metriklerini tek görünümde inceletmek.
+
+## Key Pages
+- https://bayramharcligi.com/
+- https://bayramharcligi.com/README.md
+- https://bayramharcligi.com/CONTRIBUTING.md
+- https://bayramharcligi.com/CODE_OF_CONDUCT.md
+
+## Data Notes
+- Veriler temsili amaçlıdır.
+- Kaynak ilhamı: TÜİK veri portalı, TÜİK haber bültenleri ve kamusal haber kaynakları.
+
+## Contact
+- X: https://x.com/doguabaris

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bayram Harçlığı Endeksi | 2005-2026 Harçlık Karşılaştırma Grafiği</title>
+    <meta
+      name="description"
+      content="Bayram Harçlığı Endeksi ile 2005-2026 arası bayram harçlığı trendini inceleyin. TRY, 2026 eşdeğeri, adet ve skor metriklerinde yılları karşılaştırın."
+    />
+    <meta
+      name="keywords"
+      content="bayram harçlığı, harçlık endeksi, türkiye, yıllara göre harçlık, 2026 eşdeğeri, interaktif grafik"
+    />
+    <meta name="author" content="Doğu Abaris" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://bayramharcligi.com/" />
+    <meta property="og:url" content="https://bayramharcligi.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bayram Harçlığı Endeksi" />
+    <meta
+      property="og:description"
+      content="2005-2026 bayram harçlığı trendini interaktif grafiklerle karşılaştırın."
+    />
+    <meta property="og:image" content="https://bayramharcligi.com/assets/images/og-img.jpg" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:site_name" content="Bayram Harçlığı Endeksi" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="bayramharcligi.com" />
+    <meta property="twitter:url" content="https://bayramharcligi.com/" />
+    <meta name="twitter:title" content="Bayram Harçlığı Endeksi" />
+    <meta
+      name="twitter:description"
+      content="2005-2026 arası bayram harçlığı verilerini interaktif olarak karşılaştırın."
+    />
+    <meta name="twitter:image" content="https://bayramharcligi.com/assets/images/og-img.jpg" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png" />
+    <link rel="icon" href="./assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "name": "Bayram Harçlığı Endeksi",
+            "url": "https://bayramharcligi.com/",
+            "inLanguage": "tr-TR",
+            "publisher": {
+              "@type": "Person",
+              "name": "Doğu Abaris"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "name": "Bayram Harçlığı Endeksi",
+            "url": "https://bayramharcligi.com/",
+            "description": "2005-2026 arası bayram harçlığı değişimini interaktif grafiklerle gösteren sayfa.",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://bayramharcligi.com/"
+            },
+            "about": {
+              "@type": "Thing",
+              "name": "Bayram Harçlığı"
+            }
+          }
+        ]
+      }
+    </script>
+    <link rel="stylesheet" href="./assets/css/styles.css?v=20260320-1" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Ana içeriğe geç</a>
+    <div class="page-shell">
+      <header class="masthead">
+        <section class="hero-panel hero-panel-inverse">
+          <div class="hero-grid">
+            <div class="hero-left">
+              <div class="eyebrow">BHE / 2005-2026</div>
+              <h1>BAYRAM HARÇLIĞI ENDEKSİ</h1>
+              <div class="hero-readout">
+                <div class="hero-currency-stack">
+                  <span class="try-mark">₺</span>
+                  <p class="hero-amount-label">BU YIL</p>
+                </div>
+                <strong id="hero-amount">500</strong>
+              </div>
+            </div>
+            <div class="hero-right">
+              <img class="hero-flag" src="./assets/icons/turkish-flag.svg" alt="Türk Bayrağı" />
+              <a class="hero-x-link" href="https://x.com/doguabaris" target="_blank" rel="noreferrer">Doğu Abaris tarafından</a>
+              <div class="hero-actions">
+                <a
+                  class="hero-github-link"
+                  href="https://github.com/doguabaris/bhe"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="GitHub deposuna git ve katkıda bulun"
+                >
+                  <img src="./assets/icons/github-icon.svg" alt="" />
+                  <span>KATKIDA BULUN</span>
+                </a>
+                <a class="hero-share-btn" id="share-x" href="#" target="_blank" rel="noreferrer">
+                  <img src="./assets/icons/x-logo-icon.svg" alt="" />
+                  <span>PAYLAŞ</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <nav class="section-nav" aria-label="Sayfa içi gezinme">
+            <a href="#endeks">Endeks</a>
+            <a href="#ozet-kartlar">Özet Kartlar</a>
+            <a href="#karsilastirma">Karşılaştırma</a>
+          </nav>
+        </section>
+      </header>
+
+      <main id="main-content">
+        <section class="panel chart-panel" id="endeks">
+          <div class="panel-head">
+            <div>
+              <p class="panel-kicker">İNDEKS</p>
+              <h2 id="selected-year-pill">2026</h2>
+            </div>
+            <div class="panel-head-right">
+              <div class="panel-note" id="chart-summary">TRY serisi</div>
+              <div class="chart-controls">
+                <div class="metric-tabs" id="metric-tabs" aria-label="Grafik metriği">
+                  <button class="metric-tab is-active" data-metric="pocketMoney" type="button">
+                    ₺
+                  </button>
+                  <button class="metric-tab" data-metric="currentValue" type="button">
+                    2026
+                  </button>
+                  <button class="metric-tab" data-metric="treatCount" type="button">
+                    BIG MAC ALIM GÜCÜ
+                  </button>
+                </div>
+
+                <label class="compare-control" for="compare-year">
+                  <span>Kıyaslanacak Yıl</span>
+                  <select id="compare-year"></select>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart-wrap">
+            <svg id="chart" viewBox="0 0 860 360" role="img" aria-labelledby="chart-title">
+              <title id="chart-title">Bayram Harçlığı Endeksi grafiği</title>
+            </svg>
+          </div>
+
+          <label class="slider-wrap" for="year-range">
+            <div class="range-shell">
+              <input id="year-range" type="range" min="0" max="21" step="1" value="21" aria-label="Yıl seçici" />
+            </div>
+          </label>
+        </section>
+
+        <section class="stats-grid" id="ozet-kartlar">
+          <article class="panel stat-card stat-card-inverse">
+            <p class="panel-kicker">NOMİNAL</p>
+            <strong id="money-value">₺500</strong>
+          </article>
+
+          <article class="panel stat-card">
+            <p class="panel-kicker">2026</p>
+            <strong id="real-value">₺500</strong>
+          </article>
+
+          <article class="panel stat-card">
+            <p class="panel-kicker">BIG MAC ADEDİ</p>
+            <strong id="treat-value">31</strong>
+            <p class="stat-help">Seçili yıl harçlığıyla alınabilen temsili <strong>Big Mac</strong> sayısı.</p>
+          </article>
+
+          <article class="panel stat-card stat-card-inverse">
+            <p class="panel-kicker">BIG MAC SKORU</p>
+            <strong id="vibe-value">98</strong>
+            <p class="stat-help">Big Mac alım gücüne göre normalize edilmiş 0-100 puan.</p>
+          </article>
+        </section>
+
+        <section class="panel compare-simple" id="karsilastirma">
+          <p class="panel-kicker">KARŞILAŞTIRMA ÖZETİ</p>
+          <p class="compare-simple-lead">
+            <strong id="compare-leading-year">2026</strong>
+            <span id="compare-leading-copy">önde</span>
+          </p>
+          <p class="compare-simple-meta">
+            <span id="compare-left-label">2026: ₺500</span>
+            <span id="compare-right-label">2021: ₺150</span>
+            <span id="compare-delta-label">Fark: +₺350 (%233)</span>
+          </p>
+        </section>
+
+        <footer class="footer-line">
+          <div class="footer-content">
+            <p class="footer-copy">
+              Veriler temsilidir. Yıllık seri için elde tanımlı
+              <strong>bayram harçlığı</strong>, <strong>2026 eşdeğeri</strong>,
+              <strong>Big Mac adedi</strong> ve <strong>Big Mac skoru</strong> alanları kullanıldı.
+            </p>
+            <p class="footer-copy">
+              Kaynak ilhamı:
+              <a href="https://data.tuik.gov.tr/" target="_blank" rel="noreferrer">TÜİK Veri Portalı</a>,
+              <a href="https://www.tuik.gov.tr/Home/HaberBultenleriPartial" target="_blank" rel="noreferrer">TÜİK Haber Bültenleri</a>,
+              <a href="https://www.ntv.com.tr/galeri/turkiye/2025te-fitre-ne-kadar-oldu%2C-ewY3Sr3N0mSb0rdBmttXA" target="_blank" rel="noreferrer">2025 fitre haberi</a>,
+              <a href="https://worldpopulationreview.com/countries/turkey" target="_blank" rel="noreferrer">World Population Review / Turkey</a>,
+              <a href="https://github.com/TheEconomist/big-mac-data" target="_blank" rel="noreferrer">The Economist Big Mac Data</a>.
+            </p>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script src="./assets/js/app.js?v=20260320-3"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+site: https://bayramharcligi.com/
+name: Bayram Harçlığı Endeksi
+purpose: Türkiye'de bayram harçlığı trendini interaktif olarak göstermek.
+contact: https://x.com/doguabaris
+policy:
+  - Reading and indexing are allowed for discovery and citation.
+  - Model training reuse is not allowed without explicit permission.
+  - Preserve attribution when citing this project.
